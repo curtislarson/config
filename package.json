@@ -1,8 +1,12 @@
 {
   "name": "@quackware/config",
-  "description": "Common base config files",
-  "type": "module",
   "version": "0.1.1",
+  "type": "module",
+  "description": "Common base config files",
+  "author": "Curtis Larson <quackware@gmail.com> (https://github.com/quackware)",
+  "homepage": "https://github.com/quackware/config",
+  "readme": "https://github.com/quackware/config/README.md",
+  "license": "MIT",
   "main": "index.ts",
   "types": "index.ts"
 }
