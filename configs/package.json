@@ -1,0 +1,13 @@
+{
+  "name": "@quackware/${name}",
+  "description": "${description}",
+  "version": "0.0.1",
+  "author": "Curtis Larson <quackware@gmail.com> (https://github.com/quackware)",
+  "homepage": "https://github.com/quackware/${name}",
+  "readme": "https://github.com/quackware/${name}/README.md",
+  "license": "MIT",
+  "engines": {
+    "npm": ">= 8.3",
+    "node": "^17"
+  }
+}

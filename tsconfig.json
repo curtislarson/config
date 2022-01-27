@@ -1,0 +1,35 @@
+{
+  "include": ["./configs/*.json", "./index.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "incremental": true,
+    "composite": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "inlineSources": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true
+  }
+}

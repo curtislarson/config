@@ -1,0 +1,28 @@
+{
+  "$schema": "https://cdn.deno.land/deno/versions/v1.18.0/raw/cli/schemas/config-file.v1.json",
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "deno.window",
+      "deno.unstable"
+    ],
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  }
+}
